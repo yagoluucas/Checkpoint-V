@@ -3,11 +3,11 @@ import ProductCard from "@/components/ProductCard";
 
 export default function Produtos (){
     return (
-        <div>p
+        <div>
             <ProductCard
-                img="https://via.placeholder.com/150"
+                img="/bmw.png"
                 title="BMW muito bonita"
-                price={10}
+                price={10000000000000}
                 description="essa BMW eh linda"/>
         </div>
     )

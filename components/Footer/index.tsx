@@ -1,4 +1,3 @@
-import Image from "next/image";
 import "./style.css";
 export default function Footer() {
   return (
@@ -7,3 +6,4 @@ export default function Footer() {
     </footer>
   );
 }
+
