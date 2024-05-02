@@ -6,10 +6,10 @@ import './style.css';
 function ProductCard({ img, title, price, description }: ProductCardInterface) {
     return (
         <div className="product-card">
-            <Image src={img} alt={title} width={350} height={200} />
+            <Image src={img} alt={title} width={200} height={150} />
             <h2>{title}</h2>
             <p>{description}</p>
-            <p>R$:{price}</p>
+            <p className="preco">R$:{price}</p>
         </div>
     )
 }
