@@ -1,0 +1,41 @@
+header.header-pagina {
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+    background: #fff;
+    width: 100%;
+}
+
+
+header.header-pagina nav ul.nav-header {
+    display: flex;
+    gap: 1rem;
+}
+
+
+header.header-pagina nav ul.nav-header li .link {
+    font-size: 1.3rem;
+    font-weight: 550;
+    transition: 0.3s;
+}
+
+header.header-pagina nav ul.nav-header li .link:hover {
+    color: #747474;
+}
+
+header.header-pagina nav ul.nav-header li .link {
+    font-size: 1.3rem;
+}
+
+
+header.header-pagina .img-logo {
+    max-width: 150px;
+    max-height: 120px;
+    height: 100vh;
+    width: 100%;
+}
