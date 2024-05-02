@@ -1,0 +1,25 @@
+section.segunda-secao{
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.segunda-secao div {
+    margin-bottom: 1.4rem;
+}
+
+section.segunda-secao div h2{
+    font-size: 2.4rem;
+    margin-bottom: 0.7rem;
+}
+
+section.segunda-secao div p{
+    font-size: 1.3rem;
+}
+
+section.segunda-secao .img-moto {
+    width: 95%;
+    max-width: 1400px;
+    min-width: 270px;
+}

@@ -1,0 +1,17 @@
+section.terceira-secao {
+    margin-top: 7rem;
+}
+
+section.terceira-secao > h2 {
+    font-size: 2.4rem;
+    margin-bottom: 0.4rem;
+}
+
+section.terceira-secao > p {
+    font-size: 1.3rem;
+}
+
+section.terceira-secao > h2, section.terceira-secao > p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
