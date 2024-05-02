@@ -1,0 +1,17 @@
+.btn-pagina-principal {
+    font-size: 1.2rem;
+    font-weight: 550;
+    padding: 0.5rem;
+    background: #0072CE;
+    color: #fff;
+    border-radius: 1rem;
+    width: 40%;
+    max-width: 170px;
+    min-width: 100px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.btn-pagina-principal:hover {
+    background: #01345e;
+}
