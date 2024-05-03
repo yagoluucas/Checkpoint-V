@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "./style.css";
+import Button from "../Button";
 export default function SegundaSecao() {
   return (
     <section className="segunda-secao">
@@ -14,6 +15,7 @@ export default function SegundaSecao() {
           um BMW, onde cada curva da estrada é uma oportunidade para
           experimentar o que há de melhor em mobilidade e estilo
         </p>
+        <Button texto="Ver nossa história" link="/sobre"/>
       </div>
       <Image
         className="img-moto"

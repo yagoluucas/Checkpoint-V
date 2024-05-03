@@ -11,6 +11,16 @@ export default function TerceiraSecao() {
           nomeLoja="Fiap Motors"
           img="/frente-loja1.png"
         />
+        <CardLojas
+          endereco="Avenida Paulista n°1100"
+          nomeLoja="Fiap Motors"
+          img="/frente-loja1.png"
+        />
+        <CardLojas
+          endereco="Avenida Paulista n°1100"
+          nomeLoja="Fiap Motors"
+          img="/frente-loja1.png"
+        />
       </div>
     </section>
   );

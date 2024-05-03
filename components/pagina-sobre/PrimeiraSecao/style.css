@@ -7,9 +7,18 @@ main.pagina-sobre section.primeira-secao div {
     text-align: end;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
+
+    main.pagina-sobre section.primeira-secao {
+        flex-direction: column;
+    }
+
+    main.pagina-sobre section.primeira-secao .img-secao, main.pagina-sobre section.primeira-secao div {
+        width: 90%;
+    }
 
     main.pagina-sobre section.primeira-secao div {
-        text-align: left;
+        text-align: left;   
+        margin-top: 2rem;     
     }
 }

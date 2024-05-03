@@ -1,5 +1,7 @@
 main.pagina-sobre section.segunda-secao {
     background: #C5C5C5;
+    display: flex;
+    flex-direction: row;
 }
 
 main.pagina-sobre section.segunda-secao .img-secao {
@@ -11,13 +13,18 @@ main.pagina-sobre section.segunda-secao div {
     order: -1;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
 
-    main.pagina-sobre section.segunda-secao .img-secao {
+    main.pagina-sobre section.segunda-secao {
+        flex-direction: column;
+    }
+
+    main.pagina-sobre section.segunda-secao .img-secao, main.pagina-sobre section.segunda-secao div {
         width: 90%;
     }
 
     main.pagina-sobre section.segunda-secao div {
         order: 1;
+        margin-top: 2rem;
     }
 }

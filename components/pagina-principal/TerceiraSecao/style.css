@@ -9,9 +9,23 @@ section.terceira-secao > h2 {
 
 section.terceira-secao > p {
     font-size: 1.3rem;
+    margin-bottom: 2rem;
 }
 
 section.terceira-secao > h2, section.terceira-secao > p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+section.terceira-secao div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    section.terceira-secao div {
+        flex-direction: column;
+    }   
 }
