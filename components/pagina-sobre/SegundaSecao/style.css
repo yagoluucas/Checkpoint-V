@@ -1,0 +1,23 @@
+main.pagina-sobre section.segunda-secao {
+    background: #C5C5C5;
+}
+
+main.pagina-sobre section.segunda-secao .img-secao {
+    width: 50%;
+}
+
+main.pagina-sobre section.segunda-secao div {
+    text-align: left;
+    order: -1;
+}
+
+@media screen and (max-width:768px) {
+
+    main.pagina-sobre section.segunda-secao .img-secao {
+        width: 90%;
+    }
+
+    main.pagina-sobre section.segunda-secao div {
+        order: 1;
+    }
+}

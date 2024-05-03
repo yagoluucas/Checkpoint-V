@@ -1,8 +1,11 @@
+import SegundaSecao from "@/components/pagina-sobre/SegundaSecao"
+import PrimeiraSecao from "@/components/pagina-sobre/PrimeiraSecao"
+import '@/style/sobre.css'
 export default function Sobre() {
     return (
-        <div>
-            <h1>Sobre</h1>
-            <p>aqui a gente vai falar sobre a empresa</p>
-        </div>
+        <main className="pagina-sobre">
+            <PrimeiraSecao/>
+            <SegundaSecao/>
+        </main>
     )
 }
