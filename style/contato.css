@@ -1,0 +1,27 @@
+main.contato section h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+main.contato section h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+main.contato section form {
+    background: #E6E6E6;
+    max-width: 1000px;
+    min-width: 300px;
+    width: 50%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 900px) {
+    main.contato section form {
+        width: 90%;
+    }   
+}
