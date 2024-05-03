@@ -1,0 +1,15 @@
+main.pagina-sobre section.primeira-secao {
+    background: #E6E6E6;
+    border-top: 1rem solid #111;
+}
+
+main.pagina-sobre section.primeira-secao div {
+    text-align: end;
+}
+
+@media screen and (max-width:768px) {
+
+    main.pagina-sobre section.primeira-secao div {
+        text-align: left;
+    }
+}

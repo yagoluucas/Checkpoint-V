@@ -2,14 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  max-height: 100%;
+}
+
 body {
   font-size: 62.5%;
 }
 
-main {
+main:not(main.pagina-sobre) {
   margin: 1rem auto;
 }
 
-section {
+section:not(main.pagina-sobre section) {
   margin-bottom: 2rem;
 }

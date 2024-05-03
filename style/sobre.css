@@ -1,0 +1,38 @@
+main.pagina-sobre section:not(main.pagina-sobre section.terceira-secao) {
+    padding: 2rem 5% 4rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main.pagina-sobre section div, main.pagina-sobre section .img-secao {
+    width: 40%;
+}
+
+main.pagina-sobre section div p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+main.pagina-sobre section div h1, main.pagina-sobre section div h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+/* Para dispositivos móveis */
+
+@media screen and (max-width:768px) {
+    main.pagina-sobre section {
+        flex-direction: column;
+    }
+
+    main.pagina-sobre section div, main.pagina-sobre section .img-secao {
+        width: 90%;
+    }
+
+    main.pagina-sobre section div {
+        text-align: left;
+        margin-top: 2rem;
+    }
+}
+
