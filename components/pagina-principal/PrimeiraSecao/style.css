@@ -30,7 +30,7 @@ section.secao-principal .img-carro {
     min-width: 270px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:900px) {
     section.secao-principal {
         flex-direction: column;
     }

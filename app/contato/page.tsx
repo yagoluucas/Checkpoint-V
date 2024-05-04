@@ -34,6 +34,9 @@ export default function Contato() {
         }    
         console.log(JSON.stringify(info))
         alert(`Informações enviadas com sucesso ${nome}!`)
+        setNome('')
+        setTelefone('')
+        setEmail('')
     }    
 
     useEffect(() =>{

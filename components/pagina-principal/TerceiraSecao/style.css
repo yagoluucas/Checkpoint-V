@@ -9,7 +9,7 @@ section.terceira-secao > h2 {
 
 section.terceira-secao > p {
     font-size: 1.3rem;
-    margin-bottom: 2rem;
+    margin: 0.6rem 0.5rem 2rem 0.5rem;
 }
 
 section.terceira-secao > h2, section.terceira-secao > p{

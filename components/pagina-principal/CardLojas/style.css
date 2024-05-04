@@ -1,5 +1,5 @@
 div.card-lojas {
-    padding: 1rem 0;
+    padding: 1rem;
     box-shadow: 0 0 3px #000;
     width: 30%;
     max-width: 390px;
@@ -8,7 +8,7 @@ div.card-lojas {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 1.5rem;
+    margin: 1.5rem;
 }
 
 div.card-lojas .img {
@@ -16,19 +16,22 @@ div.card-lojas .img {
     margin-bottom: 1rem;
 }
 
+div.card-lojas h3, div.card-lojas p {
+    margin-bottom: 0.6rem;
+    text-align: center;
+}
+
 div.card-lojas h3 {
     font-size: 1.8rem;
-    margin-bottom: 0.6rem;
 }
 
 div.card-lojas p {
     font-size: 1.4rem;
-    margin-bottom: 0.6rem;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
     div.card-lojas {
         width: 100%;
         margin-bottom: 1.5rem;
-    }  
+    } 
 }

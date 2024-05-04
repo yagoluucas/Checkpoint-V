@@ -1,12 +1,12 @@
 .btn-pagina-principal {
     font-size: 1.2rem;
     font-weight: 550;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     background: #0072CE;
     color: #fff;
     border-radius: 1rem;
-    width: 40%;
-    max-width: 170px;
+    width: 60%;
+    max-width: 220px;
     min-width: 100px;
     text-align: center;
     transition: 0.3s;
